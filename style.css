@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #394144;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2A3137;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #FEBB31;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: aqua;
+}
+
+h1::before {
+    content: "\1F480"; 
+    margin-right: 10px;
+}
+
+h2::before {
+    content: "\2693";
+    margin-right: 5px;
+}
+
+.container::before {
+    content: "\26F5";
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
